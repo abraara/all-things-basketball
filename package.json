@@ -10,9 +10,11 @@
     "clean": "rm -rf node_modules .next .git"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "next": "13.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0" 
+    "react-bootstrap": "^2.6.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",

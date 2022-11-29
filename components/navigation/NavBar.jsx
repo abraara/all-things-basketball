@@ -5,7 +5,7 @@ import LoginButton from "./LoginButton";
 
 function NavBar() {
     return ( 
-        <nav className="p-2 shadow relative flex justify-between items-center">
+        <nav className="p-2 bg-gradient-to-t from-orange-500 to-yellow-300 shadow relative flex justify-between items-center">
           <NavBarBranding/>
           <NavBarLinks/>
           <LoginButton className="md:block text-right"/>
