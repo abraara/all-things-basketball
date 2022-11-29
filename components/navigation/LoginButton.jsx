@@ -1,9 +1,11 @@
 import Link from 'next/link'
+import {LoginIcon} from '../icons';
 function LoginButton({className, ...props}) {
     return ( 
-        <Link href="signin" className={`hidden ${className} w-[126.88px]`}>
-            login
-        </Link>
+        <Link href="signin">
+        <LoginIcon/>
+    </Link>
+        
 
      );
 }

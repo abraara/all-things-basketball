@@ -1,7 +1,7 @@
 const LogoSvg = (props) => (
-<svg stroke="currentColor"
+<svg stroke="currentColour"
     stroke-width="0" 
-     fill="#ff8c00"
+     fill="black"
      viewBox="0 0 24 24" 
     xmlns="http://www.w3.org/2000/svg"
     {...props}

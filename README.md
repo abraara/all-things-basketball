@@ -10,7 +10,7 @@ A full project consisting of the best developers in North America that can be ac
 
 
 ### GitHub Repository
-This is link to the GitHub repository for the project [GitHub Repository](https://github.com/abraara/next-best-developer.git).   
+This is link to the GitHub repository for the project [GitHub Repository](https://github.com/abraara/all-things-basketball.git).   
 
  <br/>
 

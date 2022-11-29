@@ -4,19 +4,22 @@ function NavBarLinks() {
     return ( 
         <ul className=" hidden  md:flex gap-4 text-slate-600 font-bold ">
         <li>
-          <Link href="/">home</Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/frontend">front end</Link>
+          <Link href="/pointguard">PG</Link>
         </li>
         <li>
-          <Link href="/uiux">ui/ux</Link> 
+          <Link href="/shootingguard">SG</Link> 
         </li>
         <li>
-          <Link href="/fullstack">full stack</Link> 
+          <Link href="/smallforward">SF</Link> 
         </li>
         <li>
-          <Link href="/backend">back end</Link> 
+          <Link href="/powerforward">PF</Link> 
+        </li>
+        <li>
+          <Link href="/center">C</Link> 
         </li>
       </ul>
      );
