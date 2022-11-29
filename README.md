@@ -15,7 +15,7 @@ This is link to the GitHub repository for the project [GitHub Repository](https:
  <br/>
 
 ### Vercel Site Deployment URL 
-This is the link to the Vercel Site Deployment for the project [Vercel Site Deployment](https://next-best-developer.vercel.app).  
+This is the link to the Vercel Site Deployment for the project [Vercel Site Deployment](https://all-things-basketball.vercel.app/).  
 
 <br/>
 
