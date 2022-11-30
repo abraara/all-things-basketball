@@ -1,0 +1,226 @@
+[{
+    "id": 1,
+    "first_name": "Luka",
+    "last_name": "Doncic",
+    "number": 77,
+    "Salary": "$43,031,940",
+    "avatar": "/profiles/lukadoncic.png",
+    "team": "Dallas Mavericks",
+    "position": "Point Guard"
+  }, {
+    "id": 2,
+    "first_name": "Stephen",
+    "last_name": "Curry",
+    "number": 30,
+    "Salary": "$48,070,014",
+    "avatar": "/profiles/stephcurry.png",
+    "team": "Golden State Warriors",
+    "position": "Point Guard"
+  }, {
+    "id": 3,
+    "first_name": "Trae",
+    "last_name": "Young",
+    "number": 11,
+    "Salary": "$43,031,940",
+    "avatar": "/profiles/traeyoung.png",
+    "team": "Atlanta Hawks",
+    "position": "Point Guard"
+  }, {
+    "id": 4,
+    "first_name": "Kyrie",
+    "last_name": "Irving",
+    "number": 11,
+    "Salary": "$34,122,650",
+    "avatar": "/profiles/kyrieirving.png",
+    "team": "Brooklyn Nets",
+    "position": "Point Guard"
+  }, {
+    "id": 5,
+    "first_name": "Damian",
+    "last_name": "Lillard",
+    "number": 0,
+    "Salary": "$44,066,288",
+    "avatar": "/profiles/damelillard.png",
+    "team": "Portland Trail Blazers",
+    "position": "Point Guard"
+  },{
+    "id": 6,
+    "first_name": "Damian",
+    "last_name": "Lillard",
+    "number": 0,
+    "Salary": "$44,066,288",
+    "avatar": "/profiles/damelillard.png",
+    "team": "Portland Trail Blazers",
+    "position": "Shooting Guard"
+  }, {
+    "id": 7,
+    "first_name": "Damian",
+    "last_name": "Lillard",
+    "number": 0,
+    "Salary": "$44,066,288",
+    "avatar": "/profiles/damelillard.png",
+    "team": "Portland Trail Blazers",
+    "position": "Shooting Guard"
+  }, {
+    "id": 8,
+    "first_name": "Damian",
+    "last_name": "Lillard",
+    "number": 0,
+    "Salary": "$44,066,288",
+    "avatar": "/profiles/damelillard.png",
+    "team": "Portland Trail Blazers",
+    "position": "Shooting Guard"
+  }, {
+    "id": 9,
+    "first_name": "Damian",
+    "last_name": "Lillard",
+    "number": 0,
+    "Salary": "$44,066,288",
+    "avatar": "/profiles/damelillard.png",
+    "team": "Portland Trail Blazers",
+    "position": "Shooting Guard"
+  }, {
+    "id": 10,
+    "first_name": "Damian",
+    "last_name": "Lillard",
+    "number": 0,
+    "Salary": "$44,066,288",
+    "avatar": "/profiles/damelillard.png",
+    "team": "Portland Trail Blazers",
+    "position": "Shooting Guard"
+  }, {
+    "id": 11,
+    "first_name": "Lothario",
+    "last_name": "Revens",
+    "number": 90,
+    "Salary": "$16418655.75",
+    "avatar": "https://robohash.org/fugaomniscumque.jpg?size=150x150&set=set1",
+    "team": "Jingdezhen China Institute",
+    "position": "Project Manager"
+  }, {
+    "id": 12,
+    "first_name": "Sauveur",
+    "last_name": "Caldeyroux",
+    "number": 45,
+    "Salary": "$7490816.43",
+    "avatar": "https://robohash.org/etvoluptasquidem.jpg?size=150x150&set=set1",
+    "team": "Universitas Negeri Jakarta",
+    "position": "Account Representative I"
+  }, {
+    "id": 13,
+    "first_name": "Pail",
+    "last_name": "Tuft",
+    "number": 11,
+    "Salary": "$21483718.67",
+    "avatar": "https://robohash.org/quiauteaque.jpg?size=150x150&set=set1",
+    "team": "George Wythe College",
+    "position": "Librarian"
+  }, {
+    "id": 14,
+    "first_name": "Kimbell",
+    "last_name": "Wellbeloved",
+    "number": 70,
+    "Salary": "$49379277.95",
+    "avatar": "https://robohash.org/repudiandaedoloroccaecati.jpg?size=150x150&set=set1",
+    "team": "Université de Limoges",
+    "position": "Financial Analyst"
+  }, {
+    "id": 15,
+    "first_name": "Gerri",
+    "last_name": "Valintine",
+    "number": 97,
+    "Salary": "$31132363.53",
+    "avatar": "https://robohash.org/doloribusquidelectus.jpg?size=150x150&set=set1",
+    "team": "Tver State Medical Academy",
+    "position": "Paralegal"
+  }, {
+    "id": 16,
+    "first_name": "Sasha",
+    "last_name": "Rohlfing",
+    "number": 15,
+    "Salary": "$23764714.89",
+    "avatar": "https://robohash.org/autemquiut.jpg?size=150x150&set=set1",
+    "team": "International School of Management",
+    "position": "Analyst Programmer"
+  }, {
+    "id": 17,
+    "first_name": "Julius",
+    "last_name": "Bignall",
+    "number": 76,
+    "Salary": "$45956310.96",
+    "avatar": "https://robohash.org/repudiandaenisiprovident.jpg?size=150x150&set=set1",
+    "team": "University of West Alabama",
+    "position": "Structural Analysis Engineer"
+  }, {
+    "id": 18,
+    "first_name": "Eldon",
+    "last_name": "Skermer",
+    "number": 50,
+    "Salary": "$49337629.50",
+    "avatar": "https://robohash.org/verovelitofficia.jpg?size=150x150&set=set1",
+    "team": "Adamson University",
+    "position": "Automation Specialist IV"
+  }, {
+    "id": 19,
+    "first_name": "Quinlan",
+    "last_name": "Tatterton",
+    "number": 53,
+    "Salary": "$29156903.08",
+    "avatar": "https://robohash.org/temporesuntat.jpg?size=150x150&set=set1",
+    "team": "Carroll College Helena",
+    "position": "Social Worker"
+  }, {
+    "id": 20,
+    "first_name": "Care",
+    "last_name": "Figgures",
+    "number": 13,
+    "Salary": "$24770854.08",
+    "avatar": "https://robohash.org/commodierrorvoluptas.jpg?size=150x150&set=set1",
+    "team": "Islamic Azad University, Tehran Science & Research Branch",
+    "position": "Sales Associate"
+  }, {
+    "id": 21,
+    "first_name": "Bradley",
+    "last_name": "Grevel",
+    "number": 3,
+    "Salary": "$3523572.51",
+    "avatar": "https://robohash.org/quisatqueut.jpg?size=150x150&set=set1",
+    "team": "Kalmyk State University",
+    "position": "Environmental Tech"
+  }, {
+    "id": 22,
+    "first_name": "Claudio",
+    "last_name": "Kiljan",
+    "number": 42,
+    "Salary": "$40269269.70",
+    "avatar": "https://robohash.org/quisquasalias.jpg?size=150x150&set=set1",
+    "team": "Tezpur University",
+    "position": "Accountant I"
+  }, {
+    "id": 23,
+    "first_name": "Konstantin",
+    "last_name": "Bulmer",
+    "number": 99,
+    "Salary": "$31543346.95",
+    "avatar": "https://robohash.org/atqueomnisquas.jpg?size=150x150&set=set1",
+    "team": "Universidad Agroforestal Fernando A.Meriño",
+    "position": "Occupational Therapist"
+  }, {
+    "id": 24,
+    "first_name": "Trev",
+    "last_name": "Ivakhnov",
+    "number": 28,
+    "Salary": "$11810746.51",
+    "avatar": "https://robohash.org/doloremquiain.jpg?size=150x150&set=set1",
+    "team": "Volgograd State Technical University",
+    "position": "Graphic Designer"
+  }, {
+    "id": 25,
+    "first_name": "Gardener",
+    "last_name": "Hawkswood",
+    "number": 5,
+    "Salary": "$6277869.81",
+    "avatar": "https://robohash.org/eaquenecessitatibuslibero.jpg?size=150x150&set=set1",
+    "team": "University of Houston",
+    "position": "Software Test Engineer III"
+  }]
