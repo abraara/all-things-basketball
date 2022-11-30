@@ -17,9 +17,9 @@ function CenterPage( ) {
 
 export default CenterPage;
 
-CenterPage.getLayout = function getLayout(page) {
+  CenterPage.getLayout = function getLayout(page) {
     return (
-      <ContentPageLayout type="centers"  title="Best Centers in the NBA" tagline="the best rebounders, blockers, and paint scorers" >
+      <ContentPageLayout type='centers'  title='Best Centers in the NBA' tagline='the best rebounders, blockers, and paint scorers' >
         {page} 
       </ContentPageLayout>
     )
