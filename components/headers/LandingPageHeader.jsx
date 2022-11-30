@@ -7,7 +7,7 @@ function LandingPageHeader({title, tagline, ...props}) { return (
     <figure className='float-left'>
         <figcaption className="text-white w-11/12 lg:w-full pt-40 px-7">
             <h1 className='text-5xl font-semibold md:text-5xl lg:text-6xl xl:text-7xl'>
-        <span className="block -mt-1">{title}.</span> All The Time 
+        <span className="block -mt-1">{title}.</span> All The Time.
         </h1>
         <p className='font-light lg:text-2xl xl:text-3xl'>{tagline}</p>
  </figcaption>
