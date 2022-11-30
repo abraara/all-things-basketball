@@ -10,7 +10,7 @@ function NavBar() {
         <nav className="p-2 text-black bg-white shadow relative flex justify-between items-center">
           <NavBarBranding/>
           <NavBarLinks />
-          <div className='hidden md:flex gap-8'>
+          <div className='hidden md:flex gap-6'>
            <figure className='flex flex-col items-center  '>
                <LoginButton  />
               <figcaption className='text-[11px] text-red-600'>sign up</figcaption>
