@@ -1,18 +1,17 @@
 import Image from 'next/image'
-import bannerImage from './../../public/banner.png'
+import bannerImage from './../../public/banner.jpg'
 
 function LandingPageHeader({title, tagline, ...props}) { return (
-<header className= ' p-10 bg-gradient-to-b from-orange-500 to-yellow-300'>
+<header   className="w-full sm:h-2/3 md:h-3/12 lg:h-3/12 bg-cover bg-no-repeat bg-center" style={{backgroundImage:"url(/banner.jpg)", height:600}} >
     
-    <figure className='flex flex-col justify-center items-center md:flex-row'>
-        <figcaption>
-        <h1 className='text-4xl font-bold text-center md:text-5xl lg:text-6xl xl:text-7xl'>{title}</h1>
-        <p className='font-bold text-center lg:text-2xl xl:text-3xl'>{tagline}</p>
+    <figure className='float-left'>
+        <figcaption className="text-white w-11/12 lg:w-full pt-40 px-7">
+            <h1 className='text-5xl font-semibold md:text-5xl lg:text-6xl xl:text-7xl'>
+        <span className="block -mt-1">{title}.</span> All The Time 
+        </h1>
+        <p className='font-light lg:text-2xl xl:text-3xl'>{tagline}</p>
  </figcaption>
-    <Image className='w-[300px] md:p-0'
-        src={bannerImage}
-        alt="basketball"
-        />
+
  </figure>
 </header>
     );

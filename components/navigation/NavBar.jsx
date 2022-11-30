@@ -6,7 +6,7 @@ import GitHubLink from './GitHubLink';
 
 function NavBar() {
     return ( 
-        <nav className="p-2 bg-gradient-to-t from-orange-500 to-yellow-300 shadow relative flex justify-between items-center">
+        <nav className="p-2 bg-white shadow relative flex justify-between items-center">
           <NavBarBranding/>
           <NavBarLinks/>
           <div className='hidden md:flex gap-8'>

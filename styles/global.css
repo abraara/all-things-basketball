@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.landingImage
+{
+    height: 500px;
+    z-index: 0;
+}
+
+.landingText{
+    position: relative;
+    z-index: 1;
+}
