@@ -1,5 +1,4 @@
-import path from 'path'
-import {promises as fs} from 'fs'
+import {getPlayers} from '../libs/getPlayers';
 import ContentPageLayout from '../components/layouts/ContentPageLayout';
 import {PlayerCard} from '../components/players'
 
@@ -36,8 +35,7 @@ PowerForwardPage.getLayout = function getLayout(page) {
   }
 
   export async function getStaticProps(content){
-    const filePath = path.join(process.cwd(), './mock/players.json')
-    const players = JSON.parse(await fs.readFile(filePath, 'utf8'))
+    const players = await getPlayers()
 
     const pfPlayers = players.filter(player=> player.position ==='Power Forward')
     return{

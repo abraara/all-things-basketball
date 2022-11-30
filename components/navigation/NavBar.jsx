@@ -3,16 +3,21 @@ import NavBarBranding from "./NavBarBranding";
 import NavBarLinks from "./NavBarLinks";
 import LoginButton from "./LoginButton";
 import GitHubLink from './GitHubLink';
+import DeploymentLink from './DeploymentLink';
 
 function NavBar() {
     return ( 
-        <nav className="p-2 bg-white shadow relative flex justify-between items-center">
+        <nav className="p-2 text-black bg-white shadow relative flex justify-between items-center">
           <NavBarBranding/>
-          <NavBarLinks/>
+          <NavBarLinks />
           <div className='hidden md:flex gap-8'>
            <figure className='flex flex-col items-center  '>
                <LoginButton  />
               <figcaption className='text-[11px] text-red-600'>sign up</figcaption>
+              </figure>
+              <figure className='flex flex-col items-center'>
+              <DeploymentLink  />
+              <figcaption className='text-[11px] text-green-600'>deploy</figcaption>
               </figure>
               <figure className='flex flex-col items-center'>
               <GitHubLink  />

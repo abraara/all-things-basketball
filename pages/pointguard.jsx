@@ -1,7 +1,6 @@
-import path from 'path'
-import {promises as fs} from 'fs'
 import ContentPageLayout from '../components/layouts/ContentPageLayout';
 import {PlayerCard} from '../components/players'
+import {getPlayers} from '../libs/getPlayers';
 
 function PointGuardPage({pg}) {
 
@@ -37,8 +36,7 @@ PointGuardPage.getLayout = function getLayout(page) {
   }
 
   export async function getStaticProps(content){
-    const filePath = path.join(process.cwd(), './mock/players.json')
-    const players = JSON.parse(await fs.readFile(filePath, 'utf8'))
+   const players = await getPlayers()
 
     const pgPlayers = players.filter(player=> player.position ==='Point Guard')
     return{
