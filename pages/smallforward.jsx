@@ -26,7 +26,7 @@ export default SmallForwardPage;
 
 SmallForwardPage.getLayout = function getLayout(page) {
     return (
-      <ContentPageLayout type="small forwards"
+      <ContentPageLayout type="SF"
       title="The Best Small Forwards in the NBA"
       tagline="the most fearless, strong, and quick players" >
         {page} 

@@ -26,8 +26,8 @@ export default PowerForwardPage;
 
 PowerForwardPage.getLayout = function getLayout(page) {
     return (
-      <ContentPageLayout  type="power forwards"
-      title="The Best Power Forwards in the NBA"
+      <ContentPageLayout  type="PF"
+      title="Best Power Forwards in the NBA"
       tagline="the most dependable, defensively strong scorers" >
         {page} 
       </ContentPageLayout>

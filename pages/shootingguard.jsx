@@ -26,7 +26,7 @@ export default ShootingGuardPage;
 
 ShootingGuardPage.getLayout = function getLayout(page) {
     return (
-      <ContentPageLayout type="shooting guards"
+      <ContentPageLayout type="SG"
       title="Best Shooting Guards in the NBA"
       tagline="the best 3 point shooters with lethal accuracy" >
         {page} 

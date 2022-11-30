@@ -2,24 +2,24 @@ import Link from 'next/link'
 
 function NavBarLinks() {
     return ( 
-        <ul className=" hidden  md:flex gap-4 text-black text-slate-600 font-bold ">
+        <ul className=" hidden md:flex gap-4 text-black text-slate-600 font-bold ">
         <li>
-          <Link href="/">Home</Link>
+          <Link className='hover:underline hover:text-orange-400 focus:text-orange-500' href="/">Home</Link>
         </li>
         <li>
-          <Link href="/pointguard">PG</Link>
+          <Link className='hover:underline hover:text-orange-400 focus:text-orange-500' href="/pointguard">PG</Link>
         </li>
         <li>
-          <Link href="/shootingguard">SG</Link> 
+          <Link className='hover:underline hover:text-orange-400 focus:text-orange-500' href="/shootingguard">SG</Link> 
         </li>
         <li>
-          <Link href="/smallforward">SF</Link> 
+          <Link className='hover:underline hover:text-orange-400 focus:text-orange-500' href="/smallforward">SF</Link> 
         </li>
         <li>
-          <Link href="/powerforward">PF</Link> 
+          <Link className='hover:underline hover:text-orange-400 focus:text-orange-500' href="/powerforward">PF</Link> 
         </li>
         <li>
-          <Link href="/center">C</Link> 
+          <Link className='hover:underline hover:text-orange-400 focus:text-orange-500' href="/center">C</Link> 
         </li>
       </ul>
      );

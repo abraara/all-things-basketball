@@ -2,11 +2,11 @@ import {LogoSvg} from './../icons'
 import Link from 'next/link'
 function NavBarBranding({className, ...props}) {
     return (
-        <Link href="/">
+        <Link className='hover:underline text-orange-400 focus:text-orange-500' href="/">
         <figure className='flex items-center'>
         <LogoSvg className="w-6"/>
         <figcaption>
-            <h1 className='font-semibold'>All Things Ball</h1>
+            <h1 className='font-bold'>All Things Ball</h1>
         </figcaption>
     </figure>
     </Link>

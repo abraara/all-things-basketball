@@ -27,7 +27,7 @@ export default PointGuardPage;
 
 PointGuardPage.getLayout = function getLayout(page) {
     return (
-      <ContentPageLayout type="point guards"
+      <ContentPageLayout type="PG"
       title="Best Point Guards in the NBA"
       tagline="the best passers and ball handlers" >
         {page} 
