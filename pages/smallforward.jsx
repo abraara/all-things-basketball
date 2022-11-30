@@ -39,7 +39,7 @@ SmallForwardPage.getLayout = function getLayout(page) {
     const filePath = path.join(process.cwd(), './mock/players.json')
     const players = JSON.parse(await fs.readFile(filePath, 'utf8'))
 
-    const sfPlayers = players.filter(player=> player.position ==='Small Foward')
+    const sfPlayers = players.filter(player=> player.position ==='Small Forward')
     return{
         props:{
             sf:sfPlayers

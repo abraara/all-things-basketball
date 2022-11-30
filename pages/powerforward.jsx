@@ -39,7 +39,7 @@ PowerForwardPage.getLayout = function getLayout(page) {
     const filePath = path.join(process.cwd(), './mock/players.json')
     const players = JSON.parse(await fs.readFile(filePath, 'utf8'))
 
-    const pfPlayers = players.filter(player=> player.position ==='Power Foward')
+    const pfPlayers = players.filter(player=> player.position ==='Power Forward')
     return{
         props:{
             pf:pfPlayers
