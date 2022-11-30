@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function NavBarLinks() {
     return ( 
-        <ul className=" hidden  md:flex gap-4 text-slate-600 font-bold ">
+        <ul className=" hidden  md:flex gap-4 text-black text-slate-600 font-bold ">
         <li>
           <Link href="/">Home</Link>
         </li>

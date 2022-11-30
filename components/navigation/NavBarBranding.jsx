@@ -6,7 +6,7 @@ function NavBarBranding({className, ...props}) {
         <figure className='flex items-center'>
         <LogoSvg className="w-6"/>
         <figcaption>
-            <h1 className='font-bold'>All Things Ball</h1>
+            <h1 className='font-semibold'>All Things Ball</h1>
         </figcaption>
     </figure>
     </Link>
