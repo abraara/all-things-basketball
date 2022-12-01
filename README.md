@@ -1,10 +1,10 @@
 # Next Best Developer Project
- This is the README for the Next Best Developer Project that will be completed during the course of DMIT2008.
+ This is the README for the All Things Basketball project that will be completed during the course of DMIT2008.
 
  <br/>
 
 ##  What Will Be Created
-A full project consisting of the best developers in North America that can be accessed and contacted to help you find the best developer for your business.
+A full project consisting of the best NBA Players in seperate pages for each position, a sign-in/sign-up page, and links in the navbar to the github repository and vercel deployment url.
 
  <br/>
 
