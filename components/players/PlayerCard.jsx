@@ -7,20 +7,21 @@ function PlayerCard({first_name, last_name, avatar, number, Salary, team}) {
             <header className='flex flex-col items-center'>
                 <Image
                 src={avatar}
+                alt="player card"
                 width={128}
                 height={128}
                 className="rounded-full border border-gray-400/20 p-1 bg-gray-400/10" 
                 />
-                <h2 className='text-2xl font-semibold'>{first_name} {last_name}</h2>
+                <h2 className='text-3xl font-semibold'>{first_name} {last_name}</h2>
             </header>
             <dl className='flex flex-col items-center text-black text-sm'>
                 <dt className='sr-only'>Number</dt>
-                <dd className='text-lg  font-semibold'>#{number}</dd>
+                <dd className='text-2xl  font-semibold'>#{number}</dd>
                 <dt className='sr-only'>Team</dt>
-                <dd className='mb-1 font-semibold'>{team}</dd>
+                <dd className='mb-1 text-lg w-8/12 text-center font-semibold border-b-2 border-black'>{team}</dd>
 
                 <dt className='sr-only'>Salary</dt>
-                <dd className='mb-4 font-semibold'>Salary: {Salary}</dd>
+                <dd className='mb-4 text-lg'>Salary: {Salary}</dd>
               </dl>
         </aside>
 
