@@ -44,6 +44,15 @@
     "team": "Portland Trail Blazers",
     "position": "Point Guard"
   },{
+    "id": 26,
+    "first_name": "Ja",
+    "last_name": "Morant",
+    "number": 12,
+    "Salary": "$14,133,248",
+    "avatar": "/profiles/jamorant.png",
+    "team": "Memphis Grizzlies",
+    "position": "Point Guard"
+  },{
     "id": 6,
     "first_name": "Devin",
     "last_name": "Booker",
@@ -88,7 +97,16 @@
     "avatar": "/profiles/jaylenbrown.png",
     "team": "Boston Celtics",
     "position": "Shooting Guard"
-  }, {
+  },{
+    "id": 27,
+    "first_name": "Shai",
+    "last_name": "Gilgeous-Alexander",
+    "number": 2,
+    "Salary": "$28,413,218",
+    "avatar": "/profiles/sga.png",
+    "team": "Oklahoma City Thunder",
+    "position": "Shooting Guard"
+  },{
     "id": 11,
     "first_name": "Kevin",
     "last_name": "Durant",
@@ -134,6 +152,15 @@
     "team": "LA Clippers",
     "position": "Small Forward"
   }, {
+    "id": 28,
+    "first_name": "Demar",
+    "last_name": "Derozan",
+    "number": 11,
+    "Salary": "$38,473,218",
+    "avatar": "/profiles/derozan.png",
+    "team": "Chicago Bulls",
+    "position": "Small Forward"
+  },{
     "id": 16,
     "first_name": "Giannis",
     "last_name": "Antetokounmpo",
@@ -179,6 +206,15 @@
     "team": "Memphis Grizzlies",
     "position": "Power Forward"
   }, {
+    "id": 29,
+    "first_name": "Pascal",
+    "last_name": "Siakam",
+    "number": 43,
+    "Salary": "$34,123,248",
+    "avatar": "/profiles/siakam.png",
+    "team": "Toronto Raptors",
+    "position": "Power Forward"
+  },{
     "id": 21,
     "first_name": "Joel",
     "last_name": "Embiid",
@@ -213,6 +249,15 @@
     "Salary": "$18,500,000",
     "avatar": "/profiles/sabonis.png",
     "team": "Sacramento Kings",
+    "position": "Center"
+  },{
+    "id": 30,
+    "first_name": "Lauri",
+    "last_name": "Markkanen",
+    "number": 23,
+    "Salary": "$24,183,248",
+    "avatar": "/profiles/lauri.png",
+    "team": "Utah Jazz",
     "position": "Center"
   }, {
     "id": 25,

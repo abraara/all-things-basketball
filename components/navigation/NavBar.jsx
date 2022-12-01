@@ -13,7 +13,7 @@ function NavBar() {
           <div className='hidden md:flex gap-6'>
            <figure className='flex flex-col items-center  '>
                <LoginButton  />
-              <figcaption className='text-[11px] text-red-600'>sign up</figcaption>
+              <figcaption className='text-[11px] text-orange-400'>sign up</figcaption>
               </figure>
               <figure className='flex flex-col items-center'>
               <DeploymentLink  />

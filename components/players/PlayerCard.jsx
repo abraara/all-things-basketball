@@ -13,15 +13,14 @@ function PlayerCard({first_name, last_name, avatar, number, Salary, team}) {
                 />
                 <h2 className='text-2xl font-semibold'>{first_name} {last_name}</h2>
             </header>
-            <dl className='flex flex-col items-center text-gray-400 text-sm'>
+            <dl className='flex flex-col items-center text-black text-sm'>
                 <dt className='sr-only'>Number</dt>
-                <dd className='text-lg text-gray-600 font-semibold'>#{number}</dd>
+                <dd className='text-lg  font-semibold'>#{number}</dd>
+                <dt className='sr-only'>Team</dt>
+                <dd className='mb-1 font-semibold'>{team}</dd>
 
                 <dt className='sr-only'>Salary</dt>
-                <dd className='mb-4'>Salary: {Salary}</dd>
-
-                <dt className='sr-only'>Team</dt>
-                <dd className='mb-4'>{team}</dd>
+                <dd className='mb-4 font-semibold'>Salary: {Salary}</dd>
               </dl>
         </aside>
 

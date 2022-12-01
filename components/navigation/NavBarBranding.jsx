@@ -2,7 +2,7 @@ import {LogoSvg} from './../icons'
 import Link from 'next/link'
 function NavBarBranding({className, ...props}) {
     return (
-        <Link className='hover:underline text-orange-400 focus:text-orange-500' href="/">
+        <Link className='hover:underline text-orange-400 focus:text-orange-400' href="/">
         <figure className='flex items-center'>
         <LogoSvg className="w-6"/>
         <figcaption>
