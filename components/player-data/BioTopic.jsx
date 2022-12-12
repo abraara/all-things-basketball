@@ -1,3 +1,5 @@
+import { AiOutlineRight } from 'react-icons/ai'
+
 function BioTopic({topic}) {
   return (
     <article >
@@ -10,6 +12,7 @@ function BioTopic({topic}) {
       </p>
       <footer className="my-4 flex items-center text-sm font-medium text-orange-500">
         <h3>read more</h3>
+        <AiOutlineRight className='text-base'/>
       </footer>
     </article>
   );
