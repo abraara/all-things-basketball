@@ -1,9 +1,11 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
-function PlayerCard({first_name, last_name, avatar, number, Salary, team}) {
+function PlayerCard({first_name, last_name, avatar, number, Salary, team, id}) {
     return ( 
         <aside className='w-full m-4 sm:m-0 sm:w-[calc(50%_-_0.5rem)] lg:w-[calc(33%_-_1rem)]  
         py-10 border border-gray-200/50 rounded-md shadow-md'>
+            <Link href={`/profile/${id}`}>
             <header className='flex flex-col items-center'>
                 <Image
                 src={avatar}
@@ -23,6 +25,7 @@ function PlayerCard({first_name, last_name, avatar, number, Salary, team}) {
                 <dt className='sr-only'>Salary</dt>
                 <dd className='mb-4 text-lg'>Salary: {Salary}</dd>
               </dl>
+            </Link>
         </aside>
 
 

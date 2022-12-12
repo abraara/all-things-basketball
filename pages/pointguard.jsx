@@ -14,7 +14,9 @@ function PointGuardPage({pg}) {
         avatar={player.avatar} 
         number={player.number} 
         Salary={player.Salary} 
-        team={player.team} />
+        team={player.team} 
+        id={player.id}
+        />
         )}
 
        
