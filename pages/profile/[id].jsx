@@ -3,12 +3,12 @@ import {BioHeader, BioNavigation, BioTopic} from '../../components/player-data'
 import {getPlayers} from '../../libs/getPlayers.js'
 import {generateRandomTitle} from '../../libs/generateRandomTitle.js'
 
-function PlayerData({ avatar, first_name, last_name, team, heading, ...bio }){
+function PlayerData({ avatar, first_name, last_name, team, heading, number, ...bio }){
     return (
-        <div className='max-w-2xl'>
+        <div className="max-w-2xl mx-auto py-20">
             <BioNavigation avatar={avatar}/>
-            <BioHeader team={team} first_name={first_name} last_name={last_name}/>
-            <BioTopic topic="About Me"/>
+            <BioHeader team={team} first_name={first_name} last_name={last_name} heading={heading} number={number}/>
+            <BioTopic topic="About"/>
         </div>
     );
 
@@ -29,11 +29,11 @@ export async function getStaticPaths(){
 export async function getStaticProps({params}){
     const players = await getPlayers()
     const player = players.find(player => player.id.toString() === params.id)
-    const bio = {...player, heading:generateRandomTitle()}
+    const bio = {...player, heading:generateRandomTitle() };
 
     return{
         props: bio
-}
+};
 }
 
 PlayerData.getLayout = function getLayout(page){
