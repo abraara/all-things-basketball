@@ -8,7 +8,7 @@ function BioNavigation({ avatar, first_name, last_name }) {
             src={avatar}
             width={128}
             height={128}
-            className="rounded-full"
+            className="rounded-full border-2 border-grey"
             alt={first_name}
             priority
           />
