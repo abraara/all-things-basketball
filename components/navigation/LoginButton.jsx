@@ -2,7 +2,7 @@ import Link from 'next/link'
 import {LoginIcon} from '../icons';
 function LoginButton({className, ...props}) {
     return ( 
-        <Link href="signin">
+        <Link href="/signin">
         <LoginIcon/>
     </Link>
         
