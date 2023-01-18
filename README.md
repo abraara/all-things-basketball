@@ -1,4 +1,4 @@
-# Next Best Developer Project
+# All Things Basketball Project
  This is the README for the All Things Basketball project that will be completed during the course of DMIT2008.
 
  <br/>
